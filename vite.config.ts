@@ -6,6 +6,7 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vue-date-input/',
   plugins: [vue(), VueDevTools()],
   resolve: {
     alias: {
